@@ -79,12 +79,12 @@ export default function About({ navigate }: AboutProps) {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/hero-sofa.jpg"
+                src={`${import.meta.env.BASE_URL}hero-sofa.jpg`}
                 alt="Craftsmanship"
                 className="rounded-lg shadow-soft mt-8"
               />
               <img
-                src="/manifesto-detail.jpg"
+                src={`${import.meta.env.BASE_URL}/manifesto-detail.jpg`}
                 alt="Detail"
                 className="rounded-lg shadow-soft"
               />

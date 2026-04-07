@@ -104,14 +104,14 @@ export default function Home({ navigate }: HomeProps) {
                 <div className="space-y-4 mt-8">
                   <div className="image-reveal rounded-lg overflow-hidden shadow-elevated">
                     <img
-                      src="/hero-sofa.jpg"
+                      src={`${import.meta.env.BASE_URL}hero-sofa.jpg`}
                       alt="Luxury Sofa"
                       className="w-full h-48 md:h-64 object-cover"
                     />
                   </div>
                   <div className="image-reveal rounded-lg overflow-hidden shadow-soft">
                     <img
-                      src="/hero-chair.jpg"
+                      src={`${import.meta.env.BASE_URL}hero-chair.jpg`}
                       alt="Designer Chair"
                       className="w-full h-40 md:h-52 object-cover"
                     />
@@ -120,14 +120,14 @@ export default function Home({ navigate }: HomeProps) {
                 <div className="space-y-4">
                   <div className="image-reveal rounded-lg overflow-hidden shadow-soft">
                     <img
-                      src="/hero-table.jpg"
+                      src={`${import.meta.env.BASE_URL}hero-table.jpg`}
                       alt="Dining Table"
                       className="w-full h-40 md:h-52 object-cover"
                     />
                   </div>
                   <div className="image-reveal rounded-lg overflow-hidden shadow-elevated">
                     <img
-                      src="/product-bed-1.jpg"
+                      src={`${import.meta.env.BASE_URL}product-bed-1.jpg`}
                       alt="Luxury Bed"
                       className="w-full h-48 md:h-64 object-cover"
                     />
@@ -179,7 +179,7 @@ export default function Home({ navigate }: HomeProps) {
       <section className="relative py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/featured-collection.jpg"
+            src={`${import.meta.env.BASE_URL}featured-collection.jpg`}
             alt="Featured Collection"
             className="w-full h-full object-cover"
           />
